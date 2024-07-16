@@ -3,13 +3,15 @@ Using the development buildout
 
 Create a virtualenv in the package::
 
-    $ virtualenv --clear .
+    $ virtualenv --clear clein.
 
 Install requirements with pip::
 
     $ ./bin/pip install -r requirements.txt
 
-Run buildout::
+Run buildout:: 
+'''' 
+''''
 
     $ ./bin/buildout
 
@@ -26,14 +28,14 @@ Running tests
 list all tox environments:
 
     $ tox -l
-    py27-Plone43
-    py27-Plone51
-    py27-Plone52
-    py37-Plone52
+    py27-Plone48
+    py27-Plone58
+    py27-Plone58
+    py37-Plone58
     build_instance
     code-analysis
-    lint-py27
-    lint-py37
+    lint-py224
+    lint-py375
     coverage-report
 
 run a specific tox env:
